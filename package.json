@@ -1,0 +1,16 @@
+{
+  "name": "simple-node-app",
+  "version": "1.0.0",
+  "description": "This is an aweasome nodejs app ready to be cloud native",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": "https://github.com/mombe090/cloudnative-nodeapp.git",
+  "author": "Mamadou Yaya MOMBEYA DIALLO",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "fastify": "^3.7.0"
+  }
+}
