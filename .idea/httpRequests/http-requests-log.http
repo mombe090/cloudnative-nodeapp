@@ -1,0 +1,35 @@
+GET http://localhost:8085
+Accepts: application/json
+
+<> 2020-11-06T055634.500.json
+
+###
+
+GET http://localhost:8085
+Accepts: application/json
+
+<> 2020-11-06T055625.200.json
+
+###
+
+GET http://localhost:8085
+Accepts: application/json
+
+<> 2020-11-06T055507.500.json
+
+###
+
+GET http://localhost:8085
+Accepts: application/json
+
+<> 2020-11-06T055339.200.json
+
+###
+
+GET http://localhost:8085
+Accepts: application/json
+
+<> 2020-11-06T034121.200.json
+
+###
+

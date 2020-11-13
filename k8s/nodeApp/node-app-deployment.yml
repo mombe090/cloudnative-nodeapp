@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodeapp
+  labels:
+    app: node-app
+spec:
+  selector:
+    matchLabels:
+      app: node-app
+  template:
+    metadata:
+      labels:
+        app: node-app
+    spec:
+      containers:
+        - name: node-app
+          image: mombe090/cloud_native_node_app:0.0.3
+          ports:
+            - containerPort: 3000
+              name: http
+              protocol: TCP
+
