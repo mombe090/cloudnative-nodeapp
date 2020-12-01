@@ -50,7 +50,7 @@ fastify.get('/', async (request, reply) => {
         console.log('Document successfully saved.');
         return response
     })*/
-    return {'status': 'Error not found'}
+    return {"name":"Simple NodeJs App","deploy_type":"Cloud Native","deploy_on":"compose","Author":"mombe090"}
 });
 
 //Demarrer le serveur fastify.

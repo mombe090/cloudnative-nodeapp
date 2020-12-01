@@ -1,0 +1,14 @@
+FROM node:12.18.3-alpine3.9
+MAINTAINER yayamombe090@gmail.com
+WORKDIR /app
+COPY package.json .
+RUN yarn
+COPY . .
+EXPOSE 3000
+CMD ["yarn", "start"]
+
+
+FROM mombe090/laravel-stock:v2
+WORKDIR /root/laravel-inventory
+EXPOSE 3000
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=3000"]
