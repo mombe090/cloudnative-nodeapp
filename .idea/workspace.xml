@@ -1,16 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="387979d9-78d2-4227-ade9-397e7a81be49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="2547bcef-ffba-414f-9180-f98b2fd6802c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34f887bfdc7b60f64777bd1eef01c6c60d1570f7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f5d4a5dc792c5e3f8b6e839ee7fde6f4ed45d5d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5aa186b6b1f1d9f7a9b82e957c9fd0da3cf7253b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793bd3bec0c19edc31a51c9885d02b0e29703300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e2883689d806a5f689579600efd29e430bebf92" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc8cca65f47d3eff0bce53fd6976a6794b8cf615" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-sample.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/nodeappjs/.helmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/nodeappjs/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/nodeappjs/templates/NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/nodeappjs/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/nodeappjs/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/nodeappjs/templates/hpa.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/nodeappjs/templates/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/nodeappjs/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/nodeappjs/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/nodeappjs/templates/tests/test-connection.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/nodeappjs/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/templates/hpa.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/templates/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/nodeappjs/templates/tests/test-connection.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/nodeappjs/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/nodeappjs/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/nodeappjs/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/helm/nodeappjs/templates/NOTES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/nodeappjs/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/nodeappjs/values.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/axios.js" beforeDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @34.71.246.36" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @34.71.246.36" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @34.71.246.36" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="laravel: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+    <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,10 +91,50 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/ui/node_modules/protractor" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="ts.external.directory.path" value="C:\Users\hp\Documents\WORKSTATION\TUTOS\ui\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\WORKSTATION\TUTOS\helm\nodeApp" />
+      <recent name="C:\Users\hp\Documents\WORKSTATION\TUTOS\k8s\mongo" />
+      <recent name="C:\Users\hp\Documents\WORKSTATION\TUTOS\k8s\nodeApp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\WORKSTATION\TUTOS" />
+      <recent name="C:\Users\hp\Documents\WORKSTATION\TUTOS\k8s\mongoExpress" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8085" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accepts" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -52,13 +162,34 @@
       <created>1605561031481</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605561031481</updated>
-      <workItem from="1605561035539" duration="48000" />
+      <updated>1604171322151</updated>
+      <workItem from="1604171327845" duration="7253000" />
+      <workItem from="1604663368592" duration="531000" />
+      <workItem from="1604664153401" duration="9825000" />
+      <workItem from="1604682380337" duration="5748000" />
+      <workItem from="1604910626298" duration="6580000" />
+      <workItem from="1604936065935" duration="5019000" />
+      <workItem from="1605102688345" duration="8444000" />
+      <workItem from="1605703439622" duration="622000" />
+      <workItem from="1606655031887" duration="9222000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

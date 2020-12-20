@@ -2,30 +2,38 @@ version: '3.7'
 
 services:
   node_app:
+    depends_on:
+      - postgres_db
     build:
       context: .
-    depends_on:
-      - mongo
+    restart: always
     ports:
     - 8001:3000
 
-  mongo:
-    image: mongo:4.0.20
+  postgres_db:
+    image: postgres:11
+    ports:
+      - 5433:5432
     restart: always
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: 123456
+      POSTGRES_USER: devscom
+      POSTGRES_PASSWORD: guinee
     volumes:
-    - C:\Users\hp\Documents\WORKSTATION\TUTOS\data:/data/db
-    ports:
-      - 27019:27017
+    - ./db:/var/lib/postgresql/data
 
-  mongo-express:
-    image: mongo-express
+  pg_admin:
+    image: dpage/pgadmin4:4
+    ports:
+      - 9090:80
+    restart: on-failure
+    environment:
+      PGADMIN_DEFAULT_EMAIL: devscom@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: 123456
+
+  ui:
+    build:
+      context: ui
+      dockerfile: Dockerfile
     restart: always
     ports:
-      - 9091:8081
-    environment:
-      ME_CONFIG_MONGODB_ADMINUSERNAME: root
-      ME_CONFIG_MONGODB_ADMINPASSWORD: 123456
-
+      - 8002:80
